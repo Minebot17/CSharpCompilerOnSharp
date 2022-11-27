@@ -1,0 +1,38 @@
+﻿namespace CSharpCompilerOnSharp.Model.Enum;
+
+public enum ExpressionType
+{
+    Int,
+    Bool,
+    Double,
+    Char,
+    String,
+    Identifier,
+    Assignment,
+    Or,
+    And,
+    Equal,
+    NotEqual,
+    Is,
+    Ternary,
+    GreaterOrEqual,
+    LessOrEqual,
+    Greater,
+    Less,
+    Plus,
+    Minus,
+    Divide,
+    DivideRemainder,
+    Multiply,
+    UnaryMinus,
+    Not,
+    PreIncrement,
+    PreDecrement,
+    PostIncrement,
+    PostDecrement,
+    IdentifierField,
+    IdentifierCall,
+    ArrayAccess,
+    CreateObject,
+    CreateArray
+}
