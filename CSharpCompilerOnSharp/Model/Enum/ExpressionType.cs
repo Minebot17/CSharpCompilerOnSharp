@@ -34,5 +34,6 @@ public enum ExpressionType
     IdentifierCall,
     ArrayAccess,
     CreateObject,
-    CreateArray
+    CreateArray,
+    Cast
 }
